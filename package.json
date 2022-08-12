@@ -1,0 +1,16 @@
+{
+  "name": "constructor_for_site",
+  "version": "1.0.0",
+  "description": "site constructor",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-map "
+  },
+  "author": "Artsiom Baturyn",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
+ 
